@@ -1,0 +1,11 @@
+@import 'Colors.css';
+
+.CartSummaryContainer {
+    position: relative;
+}
+
+.CartCount {
+    position: absolute;
+    color: var(--red);
+}
+

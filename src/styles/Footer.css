@@ -1,0 +1,6 @@
+@import '../styles/Colors.css';
+
+footer {
+    background-color: var(--charcoal);
+    color: var(--white);
+}

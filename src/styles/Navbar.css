@@ -1,0 +1,44 @@
+@import '../styles/Colors.css';
+.navbar {
+    background-color: var(--charcoal);
+}
+
+
+.navbarContainer {
+    margin: auto;
+    max-width: 1300px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navbarContainer > a:last-child {
+    text-align: right;
+}
+
+.navLinks {
+    flex-grow: 1;
+}
+
+.navLinks > a {
+    margin: 10px;
+}
+
+.active {
+    color: var(--red);
+}
+
+@media (min-width: 650px) {
+    .navbarContainer > div:first-child,
+    .navbarContainer > a:last-child {
+        width: 25%;
+    }    
+}
+
+@media (max-width: 650px) {
+    .navbarContainer > a:last-child {
+        width: 10%;
+    }
+}
